@@ -15,8 +15,8 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone -b $REPO_BRANCH --single-branch https://github.com/281677160/openwrt-package package/danshui
 cd package
-git clone https://github.com/281677160/openwrt-package
 git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/zzsj0928/luci-app-serverchand
 git clone https://github.com/siropboy/luci-theme-btmod 
